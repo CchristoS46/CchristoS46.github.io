@@ -1,4 +1,26 @@
-h1{
-  color : red ;
-  
+/* Ορισμός γενικού στυλ για το σώμα της σελίδας */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+/* Στυλ για τον τίτλο */
+h1 {
+    color: #2c3e50;
+}
+
+/* Στυλ για το κουμπί */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
 }
