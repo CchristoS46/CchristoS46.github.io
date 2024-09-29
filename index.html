@@ -3,17 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Απλή Ιστοσελίδα</title>
+    <title>Ομορφότερη Ιστοσελίδα</title>
     <!-- Σύνδεση με το CSS αρχείο -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Καλώς ήρθατε στην ιστοσελίδα μου!</h1>
-    <p>Πατήστε το κουμπί για να δείτε μια ειδοποίηση από το JavaScript αρχείο:</p>
-    <!-- Κουμπί που θα ενεργοποιήσει το JavaScript -->
-    <button onclick="showMessage()">Πατήστε με</button>
 
-    <!-- Σύνδεση με το αρχείο JavaScript -->
+    <!-- Κεφαλίδα -->
+    <header>
+        <h1>Καλώς ήρθατε στην όμορφη ιστοσελίδα μου!</h1>
+        <p>Εξερευνήστε τις παρακάτω επιλογές:</p>
+    </header>
+
+    <!-- Περιεχόμενο με κάρτες -->
+    <section class="card-container">
+        <div class="card">
+            <h2>Κάρτα 1</h2>
+            <p>Αυτή είναι μια περιγραφή για την πρώτη κάρτα.</p>
+            <button onclick="showAlert('Πρώτη κάρτα!')">Μάθετε περισσότερα</button>
+        </div>
+        <div class="card">
+            <h2>Κάρτα 2</h2>
+            <p>Αυτή είναι μια περιγραφή για τη δεύτερη κάρτα.</p>
+            <button onclick="showAlert('Δεύτερη κάρτα!')">Μάθετε περισσότερα</button>
+        </div>
+        <div class="card">
+            <h2>Κάρτα 3</h2>
+            <p>Αυτή είναι μια περιγραφή για την τρίτη κάρτα.</p>
+            <button onclick="showAlert('Τρίτη κάρτα!')">Μάθετε περισσότερα</button>
+        </div>
+    </section>
+
+    <!-- Σύνδεση με το JavaScript αρχείο -->
     <script src="script.js"></script>
 </body>
 </html>
