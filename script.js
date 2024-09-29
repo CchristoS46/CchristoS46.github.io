@@ -1,4 +1,6 @@
-// Λειτουργία που εμφανίζει ένα προσαρμοσμένο μήνυμα ειδοποίησης όταν πατηθεί το κουμπί
-function showAlert(message) {
-    alert("Επιλέξατε: " + message);
-}
+// script.js
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Αποτροπή της προεπιλεγμένης συμπεριφοράς φόρμας
+    alert('Ευχαριστούμε για την επικοινωνία σας!');
+    this.reset(); // Επαναφορά της φόρμας
+});
