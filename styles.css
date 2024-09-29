@@ -1,66 +1,17 @@
-/* Στυλ για το σώμα και τη γραμματοσειρά της σελίδας */
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    background-color: #f4f4f9;
-    color: #333;
-}
-
-/* Κεφαλίδα με όμορφο φόντο και στρογγυλεμένες γωνίες */
-header {
-    background-color: #3498db;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    border-radius: 0 0 20px 20px;
-}
-
-h1 {
-    margin: 0;
-    font-size: 2.5em;
-}
-
-p {
-    font-size: 1.2em;
-}
-
-/* Κοντέινερ για τις κάρτες */
-.card-container {
-    display: flex;
-    justify-content: space-around;
-    margin: 40px auto;
-    width: 90%;
-}
-
-/* Στυλ για τις κάρτες περιεχομένου */
-.card {
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 30%;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-/* Εφέ hover για τις κάρτες */
-.card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-/* Στυλ για τα κουμπιά */
-button {
+/* Στυλ για τα links που μοιάζουν με κουμπιά */
+a.button {
+    display: inline-block;
+    text-decoration: none;
     background-color: #e74c3c;
     color: white;
     padding: 10px 15px;
-    border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 1em;
     transition: background-color 0.3s ease;
 }
 
-/* Εφέ hover για τα κουμπιά */
-button:hover {
+a.button:hover {
     background-color: #c0392b;
 }
+
