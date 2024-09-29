@@ -3,37 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ομορφότερη Ιστοσελίδα</title>
+    <title>Μια Όμορφη Ιστοσελίδα</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
         <h1>Καλώς ήρθατε στην όμορφη ιστοσελίδα μου!</h1>
-        <p>Εξερευνήστε τις παρακάτω επιλογές:</p>
+        <nav>
+            <ul>
+                <li><a href="#home">Αρχική</a></li>
+                <li><a href="#about">Σχετικά</a></li>
+                <li><a href="#services">Υπηρεσίες</a></li>
+                <li><a href="#contact">Επικοινωνία</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <!-- Προσθήκη εικόνας -->
-    <img src="photo.jpg" alt="Περιγραφή της εικόνας" class="responsive-img" />
+    <main>
+        <section id="home">
+            <h2>Αρχική Σελίδα</h2>
+            <p>Αυτή είναι η κεντρική σελίδα της ιστοσελίδας μας.</p>
+            <img src="photo.jpg" alt="Περιγραφή της εικόνας" class="responsive-img" />
+        </section>
 
-    <section class="card-container">
-        <div class="card">
-            <h2>Κάρτα 1</h2>
-            <p>Αυτή είναι μια περιγραφή για την πρώτη κάρτα.</p>
-            <a href="page1.html" class="button">Μάθετε περισσότερα</a>
-        </div>
-        <div class="card">
-            <h2>Κάρτα 2</h2>
-            <p>Αυτή είναι μια περιγραφή για τη δεύτερη κάρτα.</p>
-            <a href="page2.html" class="button">Μάθετε περισσότερα</a>
-        </div>
-        <div class="card">
-            <h2>Κάρτα 3</h2>
-            <p>Αυτή είναι μια περιγραφή για την τρίτη κάρτα.</p>
-            <a href="https://example.com" target="_blank" class="button">Μάθετε περισσότερα</a>
-        </div>
-    </section>
+        <section id="about">
+            <h2>Σχετικά με εμάς</h2>
+            <p>Μάθετε περισσότερα για την αποστολή μας και το όραμά μας.</p>
+        </section>
 
-    <script src="script.js"></script> <!-- Προαιρετικό -->
+        <section id="services">
+            <h2>Υπηρεσίες</h2>
+            <ul>
+                <li>Υπηρεσία 1</li>
+                <li>Υπηρεσία 2</li>
+                <li>Υπηρεσία 3</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Επικοινωνία</h2>
+            <form id="contactForm">
+                <input type="text" placeholder="Το όνομά σας" required>
+                <input type="email" placeholder="Το email σας" required>
+                <textarea placeholder="Το μήνυμά σας" required></textarea>
+                <button type="submit">Αποστολή</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Όλα τα δικαιώματα διατηρούνται.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
