@@ -1,3 +1,4 @@
-function alertButton(){
-  alert("Hello world")
+// Λειτουργία που θα εμφανίζει ένα μήνυμα ειδοποίησης όταν πατηθεί το κουμπί
+function showMessage() {
+    alert("Γεια σας! Αυτό είναι ένα μήνυμα από το αρχείο JavaScript.");
 }
